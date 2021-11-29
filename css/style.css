@@ -142,7 +142,9 @@ p{
 
 /*---hamburger---*/
 
-
+.menu-burger__header{
+    display: none;
+}
 
 /*--------*/
 
