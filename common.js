@@ -11,3 +11,11 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 
 });
+
+let hamburger = document.querySelector(".menu-burger__header");
+let toggle_menu = document.querySelector(".menu-toggle");
+
+hamburger.addEventListener("click", function () {
+    toggle_menu.classList.toggle("show");
+    hamburger.classList.toggle("is-active");
+});
