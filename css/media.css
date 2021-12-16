@@ -1,6 +1,6 @@
 @media(max-width: 1200px){
 
-    header.header{
+    section.intro{
         background-image: url("../images/banner-bg-tablet.jpg");
     }
 
@@ -51,7 +51,7 @@
         transition: all 0.5s ease;
     }
 
-    h1.header-title{
+    h1.intro-title{
         font-size: 40px;
     }
 
@@ -69,6 +69,7 @@
 
     article.trend{
         width: calc(50% - 2px);
+        min-height: 250px;
     }
 
     article.trend:nth-child(2n){
@@ -107,24 +108,43 @@
     article.our-item img{
         width: 100%;
     }
-    /*.article-content-description{*/
-    /*    padding-bottom: 7px;*/
-    /*}*/
+
+    .trend-title{
+        font-size: 17px;
+    }
 }
 
 @media(max-width: 640px){
+
+    header.header{
+        padding-top: 23px;
+    }
+
+    .header .container{
+        flex-direction: column-reverse;
+    }
+
+    img.logo-img{
+        width: 270px;
+    }
+
+    .menu-burger__header{
+        align-self: flex-end;
+    }
 
     div.container {
         padding: 0 15px;
     }
 
-    header.header{
+    section.intro{
         background-image: url("../images/banner-mobile.jpg");
+        padding-bottom: 0;
     }
 
-    h1.header-title{
+    h1.intro-title{
         font-size: 26px;
-        padding: 40px 0 210px;
+        padding: 0 0 210px;
+        margin-top: 230px;
     }
 
     .header-top-line{
@@ -144,6 +164,7 @@
         width: 100%;
         margin-right: 0;
         padding: 65px 15px 15px;
+        min-height: 230px;
     }
 
     .trend-title{
@@ -156,7 +177,7 @@
         flex-direction: column;
     }
 
-    .article-content h2{
+    .article-content__header{
         margin: 0;
     }
 
@@ -168,7 +189,7 @@
         margin: 5px 0;
     }
 
-    .article-content-description p{
+    .article-content-description__paragraph{
         margin-bottom: 20px;
     }
 
