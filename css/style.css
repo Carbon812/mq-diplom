@@ -39,7 +39,7 @@ li{
 }
 
 h1, h2, h3{
-    text-transform: uppercase;
+    text-transform: uppercase;/// не стоит
     font-weight: bold;
 }
 
@@ -195,14 +195,12 @@ p{
     margin: 60px 0 45px;
 }
 
-.trends-title::before, .our-items-title::before{
+.trends-title::after, .our-items-title::after{
     content:"";
-    position: absolute;
     width: 65px;
     height: 3px;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -13px;
+    display: block;
+    margin: 5px auto 0;
     background-color: #b59f5b;
 }
 
@@ -215,7 +213,7 @@ p{
     width: calc(25% - 4px);
     position: relative;
     margin-right: 4px;
-    margin-bottom: 4px;
+    /*margin-bottom: 4px;*/
     background-color: #000;
     display: flex;
     align-items: flex-end;
@@ -297,12 +295,12 @@ main{
     margin-top: 65px;
 }
 
-.article-image{
+.article-picture{
     margin-right: 30px;
     flex-shrink: 0;
 }
 
-.article-image img{
+.article-picture-img{
     max-width: 380px;
 }
 
@@ -534,13 +532,16 @@ button{
     flex-wrap: wrap;
 }
 
+.tags-list-item{
+    margin: 4px 4px 4px 0;
+}
+
 .tags-link{
     color: #000;
     font-weight: bold;
     border: 3px solid #eee;
     padding: 6px 12px;
     display: block;
-    margin: 4px 4px 4px 0;
     text-transform: uppercase;
     font-size: 12px;
 }
@@ -629,6 +630,7 @@ button{
     padding: 18px 30px;
     font-size: 14px;
     font-weight: 800;
+    border: 1px solid transparent;
 }
 
 .sale-link:hover{
@@ -799,6 +801,10 @@ button{
 
 .label-radio{
     margin-right: 60px;
+}
+
+.label-radio:last-child{
+    margin-right: 0;
 }
 
 .for-cross{

@@ -70,6 +70,7 @@
     article.trend{
         width: calc(50% - 2px);
         min-height: 250px;
+        margin-bottom: 4px;
     }
 
     article.trend:nth-child(2n){
@@ -92,11 +93,11 @@
         border-bottom: 3px solid #eee;
     }
 
-    div.article-image{
+    div.article-picture{
         margin-right: 0;
     }
 
-    div.article-image img{
+    div.article-picture-img{
         max-width: 780px;
         width: 100%;
     }
@@ -153,7 +154,7 @@
 
     .logo{
         align-self: center;
-        padding-top: 170px;
+        margin-top: 170px;
     }
 
     .menu-burger__header{

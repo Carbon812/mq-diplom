@@ -76,19 +76,19 @@
 <div class="popup-wrap">
     <div class="popup">
         <div class="for-cross">
-            <button class="cross"></button>
+            <button class="cross">
+                <span class="visually-hidden">нажмите что бы закрыть попап окно</span>
+            </button>
         </div>
         <h3 class="section-header">ваш фидбек</h3>
         <form>
             <p class="form-paragraph">Как часто Вы заходите на сайт?</p>
-            <label>
-                <select name="" id="select">
-                    <option class="option">Почти каждый день</option>
-                    <option class="option">Раз в несколько дней</option>
-                    <option class="option">Раз в несколько недель</option>
-                    <option class="option">Несколько раз в год</option>
-                </select>
-            </label>
+            <select name="" id="select">
+                <option class="option">Почти каждый день</option>
+                <option class="option">Раз в несколько дней</option>
+                <option class="option">Раз в несколько недель</option>
+                <option class="option">Несколько раз в год</option>
+            </select>
             <p class="form-paragraph">Вы подписаны на e-mail рассылку?</p>
             <label class="label-radio">
                 <input type="radio" class="radio" name="radio-group" checked>
@@ -99,9 +99,7 @@
                 <span class="circle">Нет</span>
             </label>
             <p class="form-paragraph">Расскажите, какой контент вы хотели бы  видеть на нашем сайте?</p>
-            <label>
-                <textarea id="textarea" cols="30" rows="9" placeholder="Может, больше рецептов?"></textarea>
-            </label>
+            <textarea id="textarea" cols="30" rows="9" placeholder="Может, больше рецептов?"></textarea>
             <button class="btn-email">отправить</button>
         </form>
     </div>
@@ -174,15 +172,15 @@
 <div class="container main">
     <main>
         <article class="article">
-            <div class="article-image">
-                <img src="./images/last-post1.jpg" alt="sunrise">
+            <div class="article-picture">
+                <img src="./images/last-post1.jpg" class="article-picture-img" alt="sunrise">
             </div>
             <div class="article-content">
                 <ul class="article-themes">
-                    <li>
+                    <li class="article-themes__item">
                         <a href="#0" class="article-themes__link">travel</a>
                     </li>
-                    <li>
+                    <li class="article-themes__item">
                         <a href="#0" class="article-themes__link">health</a>
                     </li>
                 </ul>
@@ -199,8 +197,8 @@
             </div>
         </article>
         <article class="article">
-            <div class="article-image">
-                <img src="./images/last-post2.jpg" alt="joga">
+            <div class="article-picture">
+                <img src="./images/last-post2.jpg" class="article-picture-img" alt="joga">
             </div>
             <div class="article-content">
                 <ul class="article-themes">
@@ -224,8 +222,8 @@
             </div>
         </article>
         <article class="article">
-            <div class="article-image">
-                <img src="./images/last-post3.jpg" alt="music festivales">
+            <div class="article-picture">
+                <img src="./images/last-post3.jpg" class="article-picture-img" alt="music festivales">
             </div>
             <div class="article-content">
                 <ul class="article-themes">
@@ -247,8 +245,8 @@
             </div>
         </article>
         <article class="article">
-            <div class="article-image">
-                <img src="./images/last-post4.jpg" alt="cooking">
+            <div class="article-picture">
+                <img src="./images/last-post4.jpg" class="article-picture-img" alt="cooking">
             </div>
             <div class="article-content">
                 <ul class="article-themes">
@@ -272,8 +270,8 @@
             </div>
         </article>
         <article class="article">
-            <div class="article-image">
-                <img src="./images/last-post5.jpg" alt="pillows prints">
+            <div class="article-picture">
+                <img src="./images/last-post5.jpg" class="article-picture-img" alt="pillows prints">
             </div>
             <div class="article-content">
                 <ul class="article-themes">
@@ -381,28 +379,28 @@
         <section class="section tags">
             <h3 class="section-header">теги</h3>
             <ul class="tags-list">
-                <li>
+                <li class="tags-list-item">
                     <a href="#0" class="tags-link">fashion</a>
                 </li>
-                <li>
+                <li class="tags-list-item">
                     <a href="#0" class="tags-link">music</a>
                 </li>
-                <li>
+                <li class="tags-list-item">
                     <a href="#0" class="tags-link">lifestyle</a>
                 </li>
-                <li>
+                <li class="tags-list-item">
                     <a href="#0" class="tags-link">art</a>
                 </li>
-                <li>
+                <li class="tags-list-item">
                     <a href="#0" class="tags-link">interior</a>
                 </li>
-                <li>
+                <li class="tags-list-item">
                     <a href="#0" class="tags-link">travel</a>
                 </li>
-                <li>
+                <li class="tags-list-item">
                     <a href="#0" class="tags-link">food</a>
                 </li>
-                <li>
+                <li class="tags-list-item">
                     <a href="#0" class="tags-link">health</a>
                 </li>
             </ul>
