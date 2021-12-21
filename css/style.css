@@ -39,7 +39,6 @@ li{
 }
 
 h1, h2, h3{
-    text-transform: uppercase;/// не стоит
     font-weight: bold;
 }
 
@@ -183,6 +182,7 @@ p{
     text-align: center;
     font-size: 45px;
     line-height: 1.6em;
+    text-transform: uppercase;
 }
 
 /*--------*/
@@ -193,6 +193,7 @@ p{
     text-align: center;
     position: relative;
     margin: 60px 0 45px;
+    text-transform: uppercase;
 }
 
 .trends-title::after, .our-items-title::after{
@@ -320,6 +321,7 @@ main{
 
 .trend-title{
     margin-top: 13px;
+    text-transform: uppercase;
 }
 
 .article-themes__link, .trend-themes__link{
@@ -342,6 +344,10 @@ main{
 
 .article-themes__link:hover::before, .trend-themes__link:hover::before{
     width: 100%;
+}
+
+.article-content__title{
+    text-transform: uppercase;
 }
 
 .article-content-link{
@@ -388,6 +394,7 @@ main{
     text-align: center;
     position: relative;
     margin-bottom: 45px;
+    text-transform: uppercase;
 }
 
 .section-header::before{
@@ -430,6 +437,7 @@ main{
 
 .post-title{
     line-height: 1.125;
+    text-transform: uppercase;
 }
 
 .post-title-link{
@@ -602,6 +610,7 @@ button{
 
 .our-item-content__header{
     margin-top: 35px;
+    text-transform: uppercase;
 }
 
 .our-item-description__link{
