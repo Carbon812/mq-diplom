@@ -480,14 +480,14 @@ p{
 
 .button{
     background-color: #b59f5b;
-    height: 50px;
+    height: 49px;
 }
 
 .btn-search{
     display: block;
     border: none;
     background-repeat: no-repeat;
-    width: 50px;
+    width: 49px;
     background-size: 20px;
     background-position: center center;
     cursor: pointer;
